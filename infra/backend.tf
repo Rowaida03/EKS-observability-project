@@ -1,5 +1,5 @@
 terraform {
-    backend "s3" {
+  backend "s3" {
     bucket       = "rowaida-eks-tf-state-bucket"
     key          = "infra/terraform.tfstate"
     region       = "eu-west-2"

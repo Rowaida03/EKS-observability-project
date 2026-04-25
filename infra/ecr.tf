@@ -11,7 +11,7 @@ resource "aws_ecr_repository" "game_2048" {
   }
 
   tags = {
-    Owner        = "Rowaida"
+    Owner       = "Rowaida"
     Environment = "dev"
     Project     = "eks-observability-project"
   }
